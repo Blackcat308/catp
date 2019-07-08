@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>catp-common</artifactId>
+        <groupId>com.catp</groupId>
+        <version>1.0.0</version>
+        <relativePath/>
+    </parent>
+
+    <artifactId>catp-common-bom</artifactId>
+    <packaging>pom</packaging>
+    <version>${catp.version}</version>
+    <description>catp 版本控制</description>
+
+    <properties>
+        <catp.version>1.0.0</catp.version>
+        <mysql.version>8.0.16</mysql.version>
+        <mybatis-plus.version>3.1.0</mybatis-plus.version>
+        <mybatis.version>3.1.0</mybatis.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <!--catp core-->
+            <dependency>
+                <groupId>com.catp</groupId>
+                <artifactId>catp-common-core</artifactId>
+                <version>${catp.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.catp</groupId>
+                <artifactId>catp-common-data</artifactId>
+                <version>${catp.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.catp</groupId>
+                <artifactId>catp-common-gateway</artifactId>
+                <version>${catp.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.catp</groupId>
+                <artifactId>catp-common-security</artifactId>
+                <version>${catp.version}</version>
+            </dependency>
+            <!--mybatis plus-->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-extension</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
+            <!--mybatis-->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis.version}</version>
+            </dependency>
+            <!--mysql-->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+
+
+</project>

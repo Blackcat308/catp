@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>catp</artifactId>
+        <groupId>com.catp</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>catp-common</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>catp-common-bom</module>
+        <module>catp-common-security</module>
+        <module>catp-common-gateway</module>
+        <module>catp-common-data</module>
+        <module>catp-common-core</module>
+    </modules>
+
+
+</project>
