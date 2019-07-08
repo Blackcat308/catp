@@ -31,10 +31,10 @@ catp
      ├── catp-common-core -- 公共工具类包
      ├── catp-common-data -- 数据服务
      └── catp-common-security -- 安全服务
-├── pig-gateway -- Spring Cloud Gateway网关[xxx]
-└── pig-tms -- 通用用户权限管理模块
-     └── pig-tms-api -- 通用用户权限管理系统公共api模块
-     └── pig-tms-service -- 通用用户权限管理系统业务处理模块[xxx]
+├── catp-gateway -- Spring Cloud Gateway网关[xxx]
+└── catp-tms -- 通用用户权限管理模块
+     └── catp-tms-api -- 通用用户权限管理系统公共api模块
+     └── catp-tms-service -- 通用用户权限管理系统业务处理模块[xxx]
 	 
 ​```
 ```
